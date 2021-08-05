@@ -1,0 +1,22 @@
+11:19:13  INFO  application.ApplicationManager - Start browser CHROME
+11:19:23  INFO  application.ApplicationManager - Navigate to -->https://ilcarro.xyz/search
+11:19:24  INFO  TestBase - Start method -->createNewCar
+11:19:52  INFO  TestBase - End of method -->createNewCar
+11:19:52  INFO  TestBase - Start method -->loginTestPositive
+11:20:07  INFO  TestBase - End of method -->loginTestPositive
+11:20:07  INFO  TestBase - Start method -->loginTestPositiveDto
+11:20:21  INFO  TestBase - End of method -->loginTestPositiveDto
+11:20:21  INFO  TestBase - Start method -->registrationTest
+11:20:31  INFO  TestBase - Registration with --> Name: Mona-->LastName: Dow --> Email:mona1231@gmail.com-->Password -->Mm1231231$
+11:20:40  INFO  TestBase - Test passed
+11:20:41  INFO  TestBase - End of method -->registrationTest
+11:20:41  INFO  TestBase - Start method -->negativeTestSendKey
+11:20:50  INFO  TestBase - End of method -->negativeTestSendKey
+11:20:50  INFO  TestBase - Start method -->positiveTestSendKey
+11:20:50  INFO  TestBase - Haifa","08/10/2021","08/30/2021"
+11:20:52  INFO  TestBase - message
+11:20:55  INFO  TestBase - End of method -->positiveTestSendKey
+11:20:55  INFO  TestBase - Start method -->selectPeriodCurrentMouth
+11:20:59  INFO  TestBase - End of method -->selectPeriodCurrentMouth
+11:20:59  INFO  TestBase - Start method -->selectPeriodInFuture
+11:21:04  INFO  TestBase - End of method -->selectPeriodInFuture

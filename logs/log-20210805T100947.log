@@ -1,0 +1,6 @@
+10:10:13  INFO  application.ApplicationManager - Start browser CHROME
+10:10:20  INFO  application.ApplicationManager - Navigate to -->https://ilcarro.xyz/search
+10:10:20  INFO  TestBase - Start method -->positiveTestSendKey
+10:10:20  INFO  TestBase - Haifa","08/10/2021","08/30/2021"
+10:10:26  INFO  TestBase - message
+10:10:33  INFO  TestBase - End of method -->positiveTestSendKey

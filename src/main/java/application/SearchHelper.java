@@ -23,7 +23,7 @@ public class SearchHelper extends HelperBase{
         int i =(int)(System.currentTimeMillis()/1000)%3600;
         String screenshot = "src/test/screenshots/scren-"+i+".png";
         takeScreenshot(screenshot);
-       click(By.cssSelector("div.cdk-overlay-container"));
+        click(By.cssSelector("div.cdk-overlay-container"));
 
     }
 

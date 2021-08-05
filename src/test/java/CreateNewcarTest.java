@@ -1,6 +1,7 @@
 import models.Car;
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -39,6 +40,9 @@ public class CreateNewcarTest extends TestBase{
                .about("very good car")
                .build();
         System.out.println("Car Num --->" +car.getCarRegNumber());
+        System.out.println(car.getCarRegNumber());
+
+
        app.carHelper().openCarForm();
        app.carHelper().fillCarForm(car);
        app.carHelper().attachPhoto();
@@ -47,4 +51,9 @@ public class CreateNewcarTest extends TestBase{
         Assert.assertTrue(app.carHelper().isCarAdded());
 
     }
+    @AfterMethod
+    public void postCondition(){
+        app.carHelper().submitCar();
+    }
+
 }
